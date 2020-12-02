@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vacation Destinations WishList</title>
+</head>
+<body>
+    <div class="font1" id='topDiv'>
+        <p class="font1" id='bigName'>Vacation Destinations Wish List</p>
+        <p class="font1" id='underBigName'>Add Destinations To Your Bucket List Of Places To Visit</p>
+
+    </div>
+    
+    <div id='container1'>
+        <div id='destinationInput'>
+            <h2>Destination Details</h2>
+
+            <form action="" id="inputForm">
+
+         <div class="eachLine">       
+        <label for="destinationName">Destination Name</label>
+        <input type="text" name="destinationName" id="destinationName"  placeholder="Enter the name of the destination" ></div>
+
+         <div class="eachLine"> 
+        <label for="location">Location</label>
+        <input type="text" name="location" id="location"  placeholder="Where is it located" ></div>
+
+         <div class="eachLine"> 
+        <label for="photo">Photo</label>
+        <input type="text" name="photo" id="photo" placeholder="Enter an image url of the place" ></div>
+
+         <div class="eachLine"> 
+        <label for="description">Description</label>
+        <textarea name="description" id="description" placeholder="Brief Description" rows="6"></textarea> </div>
+        <button id='addToList'  type="submit">Add To My List</button>
+    </form>
+    </div>
+<h2>My Wish List</h2>
+    <div id='myDestinations'>
+        <div id="bucket1"></div>
+    </div>
+</div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
