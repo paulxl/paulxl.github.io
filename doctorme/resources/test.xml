@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+    <List>
+    <disease>
+        <name>e coli</name>
+        <question>this is a test question for ecoli</question>
+        <point>50</point>
+    </disease>
+    <disease>
+        <name>samonila</name>
+        <question>this is a test question for sami</question>
+        <point>150</point>
+    </disease>
+</List>
